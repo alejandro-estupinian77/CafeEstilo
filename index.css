@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0;
+    border: 0;
+    font-family: "Playwrite HU", sans-serif;
+}
+
+a{
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    background-color: #785d56;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #5b473c;
+}
+
+
+/*HEADER*/
+.encabezado{
+    background-color: #eed7c5;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.encabezado .contenedor-encabezado{
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado .contenedor-encabezado .logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.encabezado .contenedor-encabezado .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.encabezado .contenedor-encabezado .nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/*SECTION - INTRO*/
+.intro{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/coffee_background.jpg);
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.intro .contenido{
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.intro .contenido h2{
+    font-size: 50px;
+}
+
+.intro .contenido h4{
+    font-size: 25px;
+    font-family: "Playwrite HU", sans-serif;
+}
+
+
